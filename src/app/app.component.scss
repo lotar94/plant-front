@@ -77,18 +77,34 @@ img {
   }
 
 .sky-gradient-12 { 
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 70%;
-    background: linear-gradient(to bottom, #90dffe 0%,#38a3d1 100%); }
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 70%;
+  background: linear-gradient(to bottom, #90dffe 0%,#38a3d1 100%); 
+}
 
 .heart {
-    z-index: 10;
-    background: #8A6029;
-    width: 100%;
-    height: 40%;
-    border-radius: 15% 0% 0% 0%;
-    position: absolute;
-    top: 60%;
+  z-index: 10;
+  background: #8A6029;
+  width: 100%;
+  height: 40%;
+  border-radius: 15% 0% 0% 0%;
+  position: absolute;
+  top: 60%;
 }
+
+@media (min-width: 700px) {
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+
